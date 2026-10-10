@@ -33,20 +33,20 @@
   <section class="products">
     <div class="wrap">
       <div class="grid" style="margin-top:0">
-        <article class="card"><div class="ph"><img src="../img/pastas%20zipzap.png" alt="Pasta com fecho zipzap"></div><h3>Pasta com fecho zipzap</h3></article>
-        <article class="card"><div class="ph"><img src="../img/zipzap%20impressao.png" alt="Pasta zipzap personalizada"></div><h3>Pasta zipzap personalizada</h3></article>
-        <article class="card"><div class="ph"><img src="../img/pastas%20zipzap%20tamanhos.png" alt="Pastas com zíper"></div><h3>Pastas com zíper</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20cartao2.png" alt="Pasta com zíper para documentos"></div><h3>Pasta com zíper para documentos</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20cartao3.png" alt="Pasta com zíper vertical"></div><h3>Pasta com zíper vertical</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20cartao.png" alt="Porta cartão"></div><h3>Porta cartão</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20documentos.png" alt="Porta documentos"></div><h3>Porta documentos</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20envelope%202.png" alt="Pasta com aba"></div><h3>Pasta com aba</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20envelope.png" alt="Envelope com aba"></div><h3>Envelope com aba</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20oculos.png" alt="Porta óculos"></div><h3>Porta óculos</h3></article>
-        <article class="card"><div class="ph"><img src="../img/porta%20passaporte.png" alt="Porta passaporte"></div><h3>Porta passaporte</h3></article>
-        <article class="card"><div class="ph"><img src="../img/tag%20condominio.png" alt="Tag para condomínio"></div><h3>Tag para condomínio</h3></article>
-        <article class="card"><div class="ph"><img src="../img/tag%20mala.png" alt="Tag para mala"></div><h3>Tag para mala</h3></article>
-        <article class="card"><div class="ph"><img src="../img/tag%20mala2.png" alt="Tag para mala com identificação"></div><h3>Tag para mala com identificação</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Pasta com fecho zipzap"><img src="../img/pastas%20zipzap.png" alt="Pasta com fecho zipzap"></button><h3>Pasta com fecho zipzap</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Pasta zipzap personalizada"><img src="../img/zipzap%20impressao.png" alt="Pasta zipzap personalizada"></button><h3>Pasta zipzap personalizada</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Pastas com zíper"><img src="../img/pastas%20zipzap%20tamanhos.png" alt="Pastas com zíper"></button><h3>Pastas com zíper</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Pasta com zíper para documentos"><img src="../img/porta%20cartao2.png" alt="Pasta com zíper para documentos"></button><h3>Pasta com zíper para documentos</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Pasta com zíper vertical"><img src="../img/porta%20cartao3.png" alt="Pasta com zíper vertical"></button><h3>Pasta com zíper vertical</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Porta cartão"><img src="../img/porta%20cartao.png" alt="Porta cartão"></button><h3>Porta cartão</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Porta documentos"><img src="../img/porta%20documentos.png" alt="Porta documentos"></button><h3>Porta documentos</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Pasta com aba"><img src="../img/porta%20envelope%202.png" alt="Pasta com aba"></button><h3>Pasta com aba</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Envelope com aba"><img src="../img/porta%20envelope.png" alt="Envelope com aba"></button><h3>Envelope com aba</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Porta óculos"><img src="../img/porta%20oculos.png" alt="Porta óculos"></button><h3>Porta óculos</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Porta passaporte"><img src="../img/porta%20passaporte.png" alt="Porta passaporte"></button><h3>Porta passaporte</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Tag para condomínio"><img src="../img/tag%20condominio.png" alt="Tag para condomínio"></button><h3>Tag para condomínio</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Tag para mala"><img src="../img/tag%20mala.png" alt="Tag para mala"></button><h3>Tag para mala</h3></article>
+        <article class="card"><button class="ph" type="button" aria-label="Ampliar foto: Tag para mala com identificação"><img src="../img/tag%20mala2.png" alt="Tag para mala com identificação"></button><h3>Tag para mala com identificação</h3></article>
       </div>
     </div>
   </section>
@@ -67,6 +67,14 @@
     </div>
   </section>
 </main>
+
+<dialog id="lightbox" class="lb" aria-label="Foto ampliada">
+  <button class="lb-close" aria-label="Fechar">&times;</button>
+  <button class="lb-prev" aria-label="Foto anterior">&#8249;</button>
+  <figure><img src="" alt=""><figcaption></figcaption></figure>
+  <button class="lb-next" aria-label="Próxima foto">&#8250;</button>
+</dialog>
+
 <footer>© Suni Tecnoplast. Todos os direitos reservados.</footer>
 <script src="../js/script.js"></script>
 </body>
